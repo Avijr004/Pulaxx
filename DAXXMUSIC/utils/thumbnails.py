@@ -66,7 +66,7 @@ def crop_center_circle(img, output_size, border, crop_scale=1.5):
 
 
 
-async def get_thumb(videoid):
+async def get_thumb(videoid, user_id):
     if os.path.isfile(f"cache/{videoid}_v4.png"):
         return f"cache/{videoid}_v4.png"
 
@@ -102,10 +102,12 @@ async def get_thumb(videoid):
 
     youtube = Image.open(f"cache/thumb{videoid}.png")
     image1 = changeImageSize(1280, 720, youtube)
-    image2 = image1.convert("RGBA")
-    background = image2.filter(filter=ImageFilter.BoxBlur(20))
-    enhancer = ImageEnhance.Brightness(background)
-    background = enhancer.enhance(0.6)
+    bg = Image.open("DAXXMUSIC/assets/assets/kaithumb.png")
+    image2 = bg.convert("RGBA")
+    background = image2.filter(filter=ImageFilter.BoxBlur(30))
+    enhancer = ImageEnhance.Brightness(image2)
+    image2 = background 
+    background = enhancer.enhance(1)
     draw = ImageDraw.Draw(background)
     arial = ImageFont.truetype("DAXXMUSIC/assets/assets/font2.ttf", 30)
     font = ImageFont.truetype("DAXXMUSIC/assets/assets/font.ttf", 30)
