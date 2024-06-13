@@ -12,12 +12,12 @@ from DAXXMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS
 
 
-@app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
+@app.on_message(filters.command("ginglee", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
     start = datetime.now()
-    response = await message.reply_video(
-        video="https://graph.org/file/5690109178f081adf464d.mp4",
+    response = await message.reply_photo(
+        photo="https://te.legra.ph/file/86a7ff0f5d480f255fafb.jpg",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await DAXX.ping()
