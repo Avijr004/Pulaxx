@@ -29,13 +29,11 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://telegra.ph/file/1a3c152717eb9d2e94dc2.mp4",
-"https://graph.org/file/ba7699c28dab379b518ca.mp4",
-"https://graph.org/file/83ebf52e8bbf138620de7.mp4",
-"https://graph.org/file/82fd67aa56eb1b299e08d.mp4",
-"https://graph.org/file/318eac81e3d4667edcb77.mp4",
-"https://graph.org/file/7c1aa59649fbf3ab422da.mp4",
-"https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
+"https://te.legra.ph/file/87c57ca975e1c1a71deaf.jpg",
+"https://telegra.ph/file/3eeea54ff1bdd0e0ababe.jpg",
+"https://telegra.ph/file/4485daadc218d13ef7d1f.jpg",
+"https://telegra.ph/file/08d7ac3d2bedc3dff8c96.jpg",
+"https://telegra.ph/file/44a43bea9b271e2409e23.jpg",
 
 ]
 
@@ -49,7 +47,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_video(
+            return await message.reply_photo(
                 random.choice(NEXI_VID),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
