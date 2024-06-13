@@ -16,6 +16,10 @@ async def resume_com(cli, message: Message, _, chat_id):
         return await message.reply_text(_["admin_3"])
     await music_on(chat_id)
     await DAXX.resume_stream(chat_id)
+    photo_url = "https://te.legra.ph/file/c444d70431989b4c6cee4.jpg"  # Replace with the URL of the photo you want to send
+    await message.reply_photo(
+        photo=photo_url        
+    )
     await message.reply_text(
-        _["admin_4"].format(message.from_user.mention), reply_markup=close_markup(_)
+        _["admin_4"].format(message.from_user.mention), disable_web_page_preview=True
     )
