@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "23653093"))
 API_HASH = getenv("API_HASH", "ee6df88753c36eeab95391940ba3844f")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7155707387:AAH_P1y4qh2mwsyp-nMDIJHd1OWT7_Z8M1U")
+BOT_TOKEN = getenv("BOT_TOKEN", "6111967692:AAFEXQo6_5LyA9GNJz-m233iS_57eWr1aBk")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","lochakpochak")
 # --------------------------------------------------------
@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001603027566))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001975396715))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 1556830659))
