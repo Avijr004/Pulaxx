@@ -75,19 +75,19 @@ quotes = [ " **🥰நாம் நேசிப்பவர் நம்மை�
            " **😭எண்ணம் போல் வாழ்க்கை அமையவில்லை என்றாலும் என் எண்ணத்தில் என்றும் வண்ணம் நீ தான்.😭** ",
            " **😓பிறப்பில் இருந்து இறப்பு வரை பிரிவில் தான் முடிகிறது காதல் மட்டுமே பிரிந்தும் பிரிய முடியாத வலியாய் தொடர்கிறது.!😓** ",
            " **🤥Never develop any mysticism, about love; for love itself is a mystic thing that puts you in a mystic situation.🤥** ",
-           " **😖“I wish I could hurt you the way you hurt me. But I know that If I had the chance, I wouldn’t do it.😖** ",
-           " **🤧“The worst kind of hurt is betrayal because it means someone was willing to hurt you just to make themselves feel better.🤧** ",
-           " **😩“Your love brought me to the light, and now that you’re gone how am I supposed to see?😩** ",
-           " **🙂“It isn’t the bad memories that make you sad, but the best ones that you can’t bring  back.🙂** ",
-           " **😣“Nothing hurts more than realizing you meant everything to me, and I meant nothing to you.😣** ",
-           " **😢“Everybody knows that something is wrong between us but nobody knows what’s going on.😢** ",
-           " **😭“Boys don’t know how to show their love, but their love is true.😭** ",
-           " **😣“I would always keep the good memories in which we are together no matter how badly it has ended.😣** ",
-           " **☺"A friend is one soul abiding in two bodies.☺** ",
-           " **🥰“True friends are those who you can disagree with and still respect.🥰** ",
-           " **🤗“Friendship is the inexplicable connection that makes two souls one.🤗** ",
-           " **🤍“True friends are those who you can be vulnerable with and still feel safe.🤍** ",
-           " **🖤“True friends are those who make your life a little funnier, a little easier, and a whole lot better.🖤** " ]
+           " **😖I wish I could hurt you the way you hurt me. But I know that If I had the chance, I wouldn’t do it.😖** ",
+           " **🤧The worst kind of hurt is betrayal because it means someone was willing to hurt you just to make themselves feel better.🤧** ",
+           " **😩Your love brought me to the light, and now that you’re gone how am I supposed to see?😩** ",
+           " **🙂It isn’t the bad memories that make you sad, but the best ones that you can’t bring  back.🙂** ",
+           " **😣Nothing hurts more than realizing you meant everything to me, and I meant nothing to you.😣** ",
+           " **😢Everybody knows that something is wrong between us but nobody knows what’s going on.😢** ",
+           " **😭Boys don’t know how to show their love, but their love is true.😭** ",
+           " **😣I would always keep the good memories in which we are together no matter how badly it has ended.😣** ",
+           " **☺A friend is one soul abiding in two bodies.☺** ",
+           " **🥰True friends are those who you can disagree with and still respect.🥰** ",
+           " **🤗Friendship is the inexplicable connection that makes two souls one.🤗** ",
+           " **🤍True friends are those who you can be vulnerable with and still feel safe.🤍** ",
+           " **🖤True friends are those who make your life a little funnier, a little easier, and a whole lot better.🖤** " ]
 
 # Command
     
